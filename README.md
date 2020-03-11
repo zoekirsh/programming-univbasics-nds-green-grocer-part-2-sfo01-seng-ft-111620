@@ -273,14 +273,6 @@ that lets us extract relevant insights that have meaning in the real world. The
 better we can structure our programs to represent people and the actions they
 need to perform, the easier we can make our programs necessary to users.
 
-## Video Walkthrough
-
-Try to solve this by yourself and give it your best, but if you 
-get stuck checkout this video walkthrough:
-
-[Video Walkthrough](https://www.youtube.com/watch?v=JAOL4dbtfLQ)
-
-<iframe width="640" height="480" src="https://www.youtube.com/embed/JAOL4dbtfLQ" frameborder="0" allowfullscreen></iframe>
 
 ## Resources
 
@@ -290,4 +282,3 @@ get stuck checkout this video walkthrough:
 [round]: https://ruby-doc.org/core-2.1.2/Float.html#method-i-round
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/green_grocer'>Green Grocer</a> on Learn.co and start learning to code for free.</p>
-

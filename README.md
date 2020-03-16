@@ -7,7 +7,7 @@
 
 ## Introduction
 
-In the last lab, we built out a couple of methods for simluating a grocery
+In the last lab, we built out a couple of methods for simulating a grocery
 shopping experience. We built a method for finding items in an `Array` of
 `Hash`es, `find_item_by_name_in_collection`, then a second method,
 `consolidated_cart`. `consolidated_cart` takes an `Array` of `Hash`es of single
@@ -16,14 +16,14 @@ grocery items and creates a new AoH that includes quantities for each item.
 In this lab, we're going to finish the work we've started by writing three more
 methods. The first two methods, `apply_coupons` and `apply_clearance`, will
 apply discounts to a cart that has already been consolidated - one applies
-coupons and the other applies discounts for clearance items.
+coupons, and the other applies discounts for clearance items.
 
 The final method, `checkout`, will bring the entire process together - it will
 run the `consolidated_cart` method we wrote in part 1 of this lab as well as
 `apply_coupons` and `apply_clearance`. The `checkout` method will need to take
-in an **unconslidated** cart, consolidate it, apply coupons, and apply
-discounts. Finally, the `checkout` method will total up cost of all items, apply
-a 'total price' discount if applicable, and return the final cost.
+in an **unconsolidated** cart, consolidate it, apply coupons, and apply
+discounts. Finally, the `checkout` method will total up the cost of all items,
+apply a 'total price' discount if applicable, and return the final cost.
 
 Recalling from the previous lab, when you pay for all your items at the
 checkout, you expect to get a "consolidated" receipt that:
@@ -159,7 +159,7 @@ appropriate.
 When working with a lot of data, utilizing arrays and hashes is key. With our
 knowledge of iteration and data manipulation, we can do all sorts of things
 with this data. We can build methods that access that data and modify only what
-we want. We can extract additional information, as we did here calculating a
+we want. We can extract additional information, as we did here, calculating a
 total.  We can take data that isn't helpful to us and restructure it to be
 _exactly_ what we need. Most importantly, we can process this data in a way
 that lets us extract relevant insights that have meaning in the real world. The

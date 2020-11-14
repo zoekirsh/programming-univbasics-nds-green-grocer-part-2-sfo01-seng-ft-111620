@@ -33,6 +33,7 @@ def checkout(cart, coupons)
  bigCart.each do |itemHash|
    grandTotal += itemHash[:price] * itemHash[:count]
  end
+ grandTotal >= 100? grandTotal *= 0.9
  return grandTotal
 end
 

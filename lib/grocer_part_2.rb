@@ -34,6 +34,7 @@ def checkout(cart, coupons)
  bigCart.each do |itemHash|
    grandTotal += itemHash[:price] * itemHash[:count]
  end
+ return grandTotal
 end
 
 

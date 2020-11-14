@@ -32,7 +32,6 @@ def checkout(cart, coupons)
  grandTotal = 0
  binding.pry
  bigCart.each do |itemHash|
-   binding.pry
    grandTotal += itemHash[:price] * itemHash[:count]
  end
 end

@@ -34,7 +34,6 @@ def checkout(cart, coupons)
    grandTotal += itemHash[:price] * itemHash[:count]
  end
  grandTotal >= 100? grandTotal * 0.9 : grandTotal
- return grandTotal
 end
 
 

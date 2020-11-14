@@ -30,6 +30,7 @@ def checkout(cart, coupons)
  # If grand total over 100, apply 10% discount 
  bigCart = apply_clearance(apply_coupons(consolidate_cart(cart), coupons))
  grandTotal = 0
+ binding.pry
  bigCart.each do |itemHash|
    binding.pry
    grandTotal += itemHash[:price] * itemHash[:count]
